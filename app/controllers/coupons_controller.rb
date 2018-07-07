@@ -9,8 +9,9 @@ class CouponsController < ApplicationController
   end
 
   def create
-    binding.pry
+    #binding.pry
     @coupon = Coupon.create(coupon_code: params[:coupon][:coupon_code], store: params[:coupon][:store])
+    binding.pry
   end
 
 end
