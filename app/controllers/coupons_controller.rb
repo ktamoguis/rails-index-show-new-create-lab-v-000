@@ -2,7 +2,7 @@ class CouponsController < ApplicationController
 
   def index
     @coupons = Coupon.all
-    binding.pry
+    #binding.pry
   end
 
 end
