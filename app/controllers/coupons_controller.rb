@@ -5,4 +5,7 @@ class CouponsController < ApplicationController
     #binding.pry
   end
 
+  def new
+  end
+
 end
